@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="basicApi.TareaCrudItemTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-17T19:50:01" hostname="RENUCOV" time="35.368">
+  <properties/>
+  <testcase name="createUpdateReadDeleteItem()" classname="basicApi.TareaCrudItemTest" time="35.368"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	https://todo.ly/api/items.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic ci5yZW5nZWw5OUBnbWFpbC5jb206cmVudWMwcGF0YQ==
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"Content":"Rene Rengel Item"}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=0ini1iz3x5ii3u4btsnfsfon; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Tue, 17 Oct 2023 19:50:12 GMT
+Content-Length: 537
+
+{
+    "Id": 11225982,
+    "Content": "Rene Rengel Item",
+    "ItemType": 1,
+    "Checked": false,
+    "ProjectId": null,
+    "ParentId": null,
+    "Path": "",
+    "Collapsed": false,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+    "LastSyncedDateTime": "/Date(1697572212882)/",
+    "Children": [
+        
+    ],
+    "DueDateTime": null,
+    "CreatedDate": "/Date(1697572212867)/",
+    "LastCheckedDate": null,
+    "LastUpdatedDate": "/Date(1697572212867)/",
+    "Deleted": false,
+    "Notes": "",
+    "InHistory": false,
+    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 730920
+}
+Id: 11225982
+Request method:	PUT
+Request URI:	https://todo.ly/api/items/11225982.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic ci5yZW5nZWw5OUBnbWFpbC5jb206cmVudWMwcGF0YQ==
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"Checked":true,"Content":"Rene Rengel Item"}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=oaiin05o3s3pzltjg1um525m; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Tue, 17 Oct 2023 19:50:26 GMT
+Content-Length: 556
+
+{
+    "Id": 11225982,
+    "Content": "Rene Rengel Item",
+    "ItemType": 1,
+    "Checked": true,
+    "ProjectId": null,
+    "ParentId": null,
+    "Path": "",
+    "Collapsed": false,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+    "LastSyncedDateTime": "/Date(1697572226454)/",
+    "Children": [
+        
+    ],
+    "DueDateTime": null,
+    "CreatedDate": "/Date(1697572212867)/",
+    "LastCheckedDate": "/Date(1697572226453)/",
+    "LastUpdatedDate": "/Date(1697572226453)/",
+    "Deleted": false,
+    "Notes": "",
+    "InHistory": true,
+    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 730920
+}
+Request method:	GET
+Request URI:	https://todo.ly/api/items/11225982.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic ci5yZW5nZWw5OUBnbWFpbC5jb206cmVudWMwcGF0YQ==
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=h3reejcyz4exkefxrhalkuyp; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Tue, 17 Oct 2023 19:50:35 GMT
+Content-Length: 556
+
+{
+    "Id": 11225982,
+    "Content": "Rene Rengel Item",
+    "ItemType": 1,
+    "Checked": true,
+    "ProjectId": null,
+    "ParentId": null,
+    "Path": "",
+    "Collapsed": false,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+    "LastSyncedDateTime": "/Date(1697572235689)/",
+    "Children": [
+        
+    ],
+    "DueDateTime": null,
+    "CreatedDate": "/Date(1697572212867)/",
+    "LastCheckedDate": "/Date(1697572226453)/",
+    "LastUpdatedDate": "/Date(1697572226453)/",
+    "Deleted": false,
+    "Notes": "",
+    "InHistory": true,
+    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 730920
+}
+Request method:	DELETE
+Request URI:	https://todo.ly/api/items/11225982.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic ci5yZW5nZWw5OUBnbWFpbC5jb206cmVudWMwcGF0YQ==
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=bdzhqnnooy1pxpvc5bmhcutg; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Tue, 17 Oct 2023 19:50:36 GMT
+Content-Length: 555
+
+{
+    "Id": 11225982,
+    "Content": "Rene Rengel Item",
+    "ItemType": 1,
+    "Checked": true,
+    "ProjectId": null,
+    "ParentId": null,
+    "Path": "",
+    "Collapsed": false,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+    "LastSyncedDateTime": "/Date(1697572237078)/",
+    "Children": [
+        
+    ],
+    "DueDateTime": null,
+    "CreatedDate": "/Date(1697572212867)/",
+    "LastCheckedDate": "/Date(1697572226453)/",
+    "LastUpdatedDate": "/Date(1697572237063)/",
+    "Deleted": true,
+    "Notes": "",
+    "InHistory": true,
+    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 730920
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
