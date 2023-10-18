@@ -1,5 +1,5 @@
 Request method:	POST
--Request URI:	https://todo.ly/api/items.json
+,Request URI:	https://todo.ly/api/user.json
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -11,215 +11,33 @@
 Cookies:		<none>
 Multiparts:		<none>
 Body:
- {"Content":"Rene Rengel Item"}
+L{"Email":"userRenuco@user.com","FullName":"usuario","Password":"PassW0rd"}
 HTTP/1.1 200 OK
 4Cache-Control: no-cache, no-store, must-revalidate
 Pragma: no-cache
 /Content-Type: application/json; charset=utf-8
 Expires: -1
 Server: Microsoft-IIS/8.0
-XSet-Cookie: ASP.NET_SessionId=0ini1iz3x5ii3u4btsnfsfon; path=/; HttpOnly; SameSite=Lax
+XSet-Cookie: ASP.NET_SessionId=tharu0usfubqtd02z4njvobc; path=/; HttpOnly; SameSite=Lax
 X-AspNetMvc-Version: 2.0
 X-AspNet-Version: 4.0.30319
 X-Powered-By: ASP.NET
-%Date: Tue, 17 Oct 2023 19:50:12 GMT
-Content-Length: 537
+%Date: Wed, 18 Oct 2023 14:38:38 GMT
+Content-Length: 291
 
 {
-    "Id": 11225982,
-#    "Content": "Rene Rengel Item",
-    "ItemType": 1,
-    "Checked": false,
-    "ProjectId": null,
-    "ParentId": null,
-    "Path": "",
-    "Collapsed": false,
-    "DateString": null,
-    "DateStringPriority": 0,
-    "DueDate": "",
-    "Recurrence": null,
-    "ItemOrder": null,
-    "Priority": 4,
-3    "LastSyncedDateTime": "/Date(1697572212882)/",
-    "Children": [
-	        
-    ],
-    "DueDateTime": null,
-,    "CreatedDate": "/Date(1697572212867)/",
-    "LastCheckedDate": null,
-0    "LastUpdatedDate": "/Date(1697572212867)/",
-    "Deleted": false,
-    "Notes": "",
-    "InHistory": false,
-"    "SyncClientCreationId": null,
-    "DueTimeSpecified": true,
-    "OwnerId": 730920
+    "Id": 750965,
+$    "Email": "userRenuco@user.com",
+    "Password": null,
+    "FullName": "usuario",
+    "TimeZone": 0,
+    "IsProUser": false,
+!    "DefaultProjectId": 4150950,
+"    "AddItemMoreExpanded": false,
+&    "EditDueDateMoreExpanded": false,
+    "ListSortType": 0,
+    "FirstDayOfWeek": 0,
+    "NewTaskDueDate": -1,
+*    "TimeZoneId": "Pacific Standard Time"
 }
-Id: 11225982
-Request method:	PUT
-6Request URI:	https://todo.ly/api/items/11225982.json
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-LHeaders:		Authorization=Basic ci5yZW5nZWw5OUBnbWFpbC5jb206cmVudWMwcGF0YQ==
-				Accept=*/*
-1				Content-Type=text/plain; charset=ISO-8859-1
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-/{"Checked":true,"Content":"Rene Rengel Item"}
-HTTP/1.1 200 OK
-4Cache-Control: no-cache, no-store, must-revalidate
-Pragma: no-cache
-/Content-Type: application/json; charset=utf-8
-Expires: -1
-Server: Microsoft-IIS/8.0
-XSet-Cookie: ASP.NET_SessionId=oaiin05o3s3pzltjg1um525m; path=/; HttpOnly; SameSite=Lax
-X-AspNetMvc-Version: 2.0
-X-AspNet-Version: 4.0.30319
-X-Powered-By: ASP.NET
-%Date: Tue, 17 Oct 2023 19:50:26 GMT
-Content-Length: 556
-
-{
-    "Id": 11225982,
-#    "Content": "Rene Rengel Item",
-    "ItemType": 1,
-    "Checked": true,
-    "ProjectId": null,
-    "ParentId": null,
-    "Path": "",
-    "Collapsed": false,
-    "DateString": null,
-    "DateStringPriority": 0,
-    "DueDate": "",
-    "Recurrence": null,
-    "ItemOrder": null,
-    "Priority": 4,
-3    "LastSyncedDateTime": "/Date(1697572226454)/",
-    "Children": [
-	        
-    ],
-    "DueDateTime": null,
-,    "CreatedDate": "/Date(1697572212867)/",
-0    "LastCheckedDate": "/Date(1697572226453)/",
-0    "LastUpdatedDate": "/Date(1697572226453)/",
-    "Deleted": false,
-    "Notes": "",
-    "InHistory": true,
-"    "SyncClientCreationId": null,
-    "DueTimeSpecified": true,
-    "OwnerId": 730920
-}
-Request method:	GET
-6Request URI:	https://todo.ly/api/items/11225982.json
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-LHeaders:		Authorization=Basic ci5yZW5nZWw5OUBnbWFpbC5jb206cmVudWMwcGF0YQ==
-				Accept=*/*
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 200 OK
-4Cache-Control: no-cache, no-store, must-revalidate
-Pragma: no-cache
-/Content-Type: application/json; charset=utf-8
-Expires: -1
-Server: Microsoft-IIS/8.0
-XSet-Cookie: ASP.NET_SessionId=h3reejcyz4exkefxrhalkuyp; path=/; HttpOnly; SameSite=Lax
-X-AspNetMvc-Version: 2.0
-X-AspNet-Version: 4.0.30319
-X-Powered-By: ASP.NET
-%Date: Tue, 17 Oct 2023 19:50:35 GMT
-Content-Length: 556
-
-{
-    "Id": 11225982,
-#    "Content": "Rene Rengel Item",
-    "ItemType": 1,
-    "Checked": true,
-    "ProjectId": null,
-    "ParentId": null,
-    "Path": "",
-    "Collapsed": false,
-    "DateString": null,
-    "DateStringPriority": 0,
-    "DueDate": "",
-    "Recurrence": null,
-    "ItemOrder": null,
-    "Priority": 4,
-3    "LastSyncedDateTime": "/Date(1697572235689)/",
-    "Children": [
-	        
-    ],
-    "DueDateTime": null,
-,    "CreatedDate": "/Date(1697572212867)/",
-0    "LastCheckedDate": "/Date(1697572226453)/",
-0    "LastUpdatedDate": "/Date(1697572226453)/",
-    "Deleted": false,
-    "Notes": "",
-    "InHistory": true,
-"    "SyncClientCreationId": null,
-    "DueTimeSpecified": true,
-    "OwnerId": 730920
-}
-Request method:	DELETE
-6Request URI:	https://todo.ly/api/items/11225982.json
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-LHeaders:		Authorization=Basic ci5yZW5nZWw5OUBnbWFpbC5jb206cmVudWMwcGF0YQ==
-				Accept=*/*
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 200 OK
-4Cache-Control: no-cache, no-store, must-revalidate
-Pragma: no-cache
-/Content-Type: application/json; charset=utf-8
-Expires: -1
-Server: Microsoft-IIS/8.0
-XSet-Cookie: ASP.NET_SessionId=bdzhqnnooy1pxpvc5bmhcutg; path=/; HttpOnly; SameSite=Lax
-X-AspNetMvc-Version: 2.0
-X-AspNet-Version: 4.0.30319
-X-Powered-By: ASP.NET
-%Date: Tue, 17 Oct 2023 19:50:36 GMT
-Content-Length: 555
-
-{
-    "Id": 11225982,
-#    "Content": "Rene Rengel Item",
-    "ItemType": 1,
-    "Checked": true,
-    "ProjectId": null,
-    "ParentId": null,
-    "Path": "",
-    "Collapsed": false,
-    "DateString": null,
-    "DateStringPriority": 0,
-    "DueDate": "",
-    "Recurrence": null,
-    "ItemOrder": null,
-    "Priority": 4,
-3    "LastSyncedDateTime": "/Date(1697572237078)/",
-    "Children": [
-	        
-    ],
-    "DueDateTime": null,
-,    "CreatedDate": "/Date(1697572212867)/",
-0    "LastCheckedDate": "/Date(1697572226453)/",
-0    "LastUpdatedDate": "/Date(1697572237063)/",
-    "Deleted": true,
-    "Notes": "",
-    "InHistory": true,
-"    "SyncClientCreationId": null,
-    "DueTimeSpecified": true,
-    "OwnerId": 730920
-}
+id es: 750965
