@@ -12,7 +12,7 @@ public class Pregunta2Test extends TestBase {
     @Test
     public void createUsers(){
         JSONObject body = new JSONObject();
-        body.put("Email", "userRenuco1@parcial.com");
+        body.put("Email", "userRenuco111@parcial.com");
         body.put("FullName", "usuario");
         body.put("Password", "PassW0rd");
 
@@ -27,8 +27,13 @@ public class Pregunta2Test extends TestBase {
         int idUser1 = response.then().extract().path("Id");
         System.out.println("id es: " + idUser1);
 
-        JSONObject body = new JSONObject();
-        body.put("Email", "userRenuco2@parcial.com");
+        requestInfo.setUrl("https://todo.ly/api/user/"+idUser1+".json");
+        response = FactoryRequest.make(delete).send(requestInfo);
+        response.then().statusCode(200).body("Email", equalTo(body.get("Email")));
+
+
+        body.clear();
+        body.put("Email", "userRenuco222@parcial.com");
         body.put("FullName", "usuario");
         body.put("Password", "PassW0rd");
 
@@ -43,9 +48,13 @@ public class Pregunta2Test extends TestBase {
         int idUser2 = response.then().extract().path("Id");
         System.out.println("id es: " + idUser2);
 
+        requestInfo.setUrl("https://todo.ly/api/user/"+idUser2+".json");
+        response = FactoryRequest.make(delete).send(requestInfo);
+        response.then().statusCode(200).body("Email", equalTo(body.get("Email")));
 
-        JSONObject body = new JSONObject();
-        body.put("Email", "userRenuco3@parcial.com");
+
+        body.clear();
+        body.put("Email", "userRenuco333@parcial.com");
         body.put("FullName", "usuario");
         body.put("Password", "PassW0rd");
 
@@ -61,8 +70,13 @@ public class Pregunta2Test extends TestBase {
         System.out.println("id es: " + idUser3);
 
 
-        JSONObject body = new JSONObject();
-        body.put("Email", "userRenuco4@parcial.com");
+        requestInfo.setUrl("https://todo.ly/api/user/"+idUser3+".json");
+        response = FactoryRequest.make(delete).send(requestInfo);
+        response.then().statusCode(200).body("Email", equalTo(body.get("Email")));
+
+
+        body.clear();
+        body.put("Email", "userRenuco444@parcial.com");
         body.put("FullName", "usuario");
         body.put("Password", "PassW0rd");
 
@@ -78,9 +92,14 @@ public class Pregunta2Test extends TestBase {
         System.out.println("id es: " + idUser4);
 
 
+        requestInfo.setUrl("https://todo.ly/api/user/"+idUser4+".json");
+        response = FactoryRequest.make(delete).send(requestInfo);
+        response.then().statusCode(200).body("Email", equalTo(body.get("Email")));
 
 
 
 
     }
+
+
 }

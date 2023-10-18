@@ -11,28 +11,28 @@
 Cookies:		<none>
 Multiparts:		<none>
 Body:
-M{"Email":"userRenuco1@user.com","FullName":"usuario","Password":"PassW0rd"}
+U{"Email":"RenucoParcial@parcial.com","FullName":"RenucoParcial","Password":"12345"}
 HTTP/1.1 200 OK
 4Cache-Control: no-cache, no-store, must-revalidate
 Pragma: no-cache
 /Content-Type: application/json; charset=utf-8
 Expires: -1
 Server: Microsoft-IIS/8.0
-XSet-Cookie: ASP.NET_SessionId=hxyo0khwdvlqqkv4owplccwk; path=/; HttpOnly; SameSite=Lax
+XSet-Cookie: ASP.NET_SessionId=le0u4smw4kfxyu33fwtv0ndw; path=/; HttpOnly; SameSite=Lax
 X-AspNetMvc-Version: 2.0
 X-AspNet-Version: 4.0.30319
 X-Powered-By: ASP.NET
-%Date: Wed, 18 Oct 2023 19:41:19 GMT
-Content-Length: 292
+%Date: Wed, 18 Oct 2023 23:01:52 GMT
+Content-Length: 303
 
 {
-    "Id": 751032,
-%    "Email": "userRenuco1@user.com",
+    "Id": 751142,
+*    "Email": "RenucoParcial@parcial.com",
     "Password": null,
-    "FullName": "usuario",
+!    "FullName": "RenucoParcial",
     "TimeZone": 0,
     "IsProUser": false,
-!    "DefaultProjectId": 4151405,
+!    "DefaultProjectId": 4152177,
 "    "AddItemMoreExpanded": false,
 &    "EditDueDateMoreExpanded": false,
     "ListSortType": 0,
@@ -40,4 +40,77 @@
     "NewTaskDueDate": -1,
 *    "TimeZoneId": "Pacific Standard Time"
 }
-id es: 751032
+HTTP/1.1 200 OK
+4Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+/Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+XSet-Cookie: ASP.NET_SessionId=le0u4smw4kfxyu33fwtv0ndw; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+%Date: Wed, 18 Oct 2023 23:01:52 GMT
+Content-Length: 303
+
+{
+    "Id": 751142,
+*    "Email": "RenucoParcial@parcial.com",
+    "Password": null,
+!    "FullName": "RenucoParcial",
+    "TimeZone": 0,
+    "IsProUser": false,
+!    "DefaultProjectId": 4152177,
+"    "AddItemMoreExpanded": false,
+&    "EditDueDateMoreExpanded": false,
+    "ListSortType": 0,
+    "FirstDayOfWeek": 0,
+    "NewTaskDueDate": -1,
+*    "TimeZoneId": "Pacific Standard Time"
+}
+Request method:	GET
+<Request URI:	https://todo.ly/api/authentication/token.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+LHeaders:		Authorization=Basic ci5yZW5nZWw5OUBnbWFpbC5jb206cmVudWMwcGF0YQ==
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+4Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+/Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+XSet-Cookie: ASP.NET_SessionId=bayalcyoj3tryvi4xm2wirld; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+%Date: Wed, 18 Oct 2023 23:01:54 GMT
+Content-Length: 61
+
+{
+-    "ErrorMessage": "Account doesn't exist",
+    "ErrorCode": 105
+}
+HTTP/1.1 200 OK
+4Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+/Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+XSet-Cookie: ASP.NET_SessionId=bayalcyoj3tryvi4xm2wirld; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+%Date: Wed, 18 Oct 2023 23:01:54 GMT
+Content-Length: 61
+
+{
+-    "ErrorMessage": "Account doesn't exist",
+    "ErrorCode": 105
+}

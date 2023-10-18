@@ -7,7 +7,6 @@ import io.restassured.response.Response;
 import org.json.JSONObject;
 
 import org.junit.jupiter.api.Test;
-import todoLyTest.TestBaseToken;
 
 
 import java.util.Base64;
@@ -32,7 +31,7 @@ public class Pregunta1Test {
         body.put("Email", "RenucoParcial@parcial.com");
         body.put("Password", "12345");
         body.put("FullName", "RenucoParcial");
-        requestInfo.setUrl(Configuration.host+"api/user.json").setBody(body.toString());
+        requestInfo.setUrl(Configuration.host+"/api/user.json").setBody(body.toString());
         response = FactoryRequest.make("post").send(requestInfo);
         response.then()
                 .log().all()
@@ -41,7 +40,7 @@ public class Pregunta1Test {
                 .body("FullName", equalTo(body.get("FullName")));
 
         // Get token
-
+        body.clear();
         String credential= "RenucoParcial@parcial.com:12345";
         requestInfo.setHeaders("Authorization","Basic "+ Base64.getEncoder().encodeToString(credential.getBytes()).toString());
         requestInfo.setUrl(Configuration.host + "/api/authentication/token.json");
@@ -49,8 +48,6 @@ public class Pregunta1Test {
         String token =response.then().extract().path("TokenString");
 
         response.then().log().all().body("TokenString", equalTo(token));
-
-
 
     }
 
