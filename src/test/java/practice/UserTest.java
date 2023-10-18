@@ -28,10 +28,7 @@ public class UserTest extends TestBaseToken {
         int idUser = response.then().extract().path("Id");
         System.out.println("id es: " + idUser);
     }
-    @Test
-    public void createProject(){
-       // re
-    }
+
 
 
 }
